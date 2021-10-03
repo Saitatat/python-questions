@@ -6,11 +6,22 @@ def ques1():
     print(f"Numbrs: {nums}\nOdd Numbers: {odds}\nEven Numbers: {evens}")
 
 # Ques 2) A List Contains Numbers & String, Filter Numbers & String in seperate List.
+def ques2():
+    items = [1,2,3,"Numbers","String"]
+    nums = []
+    strings = []
+    for n in items:
+        try:
+            n = int(n)
+            nums.append(n)
+        except:
+            strings.append(n)
 
+    print(f"Items: {items}\nNumbers: {nums}\nStrings: {strings}")
 
 # Ques 3) Find Sum of all Odd Number till N.
 
 
 # Ques 4) Find Sum of all Even Number till N.
 
-ques1()
+ques2()
