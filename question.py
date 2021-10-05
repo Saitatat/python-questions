@@ -40,6 +40,15 @@ def ques4():
     print(f"Total Even Sum: {sum}")
 
 # Ques 5) Find Max Value between two numbers
+def ques5(num1,num2):
+    num1 = int(num1)
+    num2 = int(num2)
+    if(num1==num2):
+        print(num1,num2,"Both are Equal")
+    elif(num1>num2):
+        print(num1, 'is Maximum')
+    else:
+        print(num2, 'is Maximum')
 
 # Ques 6) Find Min Value between two numbers
 
@@ -53,4 +62,4 @@ def ques4():
 ****
 '''
 
-ques4()
+ques5()
