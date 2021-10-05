@@ -30,5 +30,13 @@ def ques3():
     print(f"Total Odd Sum: {sum}")
 
 # Ques 4) Find Sum of all Even Number till N.
+def ques4():
+    n = int(input("Enter n: "))
+    sum = 0
+    for i in range(1,n+1):
+        if i%2==0:
+            sum+=i
 
-ques3()
+    print(f"Total Odd Sum: {sum}")
+
+ques4()
