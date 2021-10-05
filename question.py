@@ -51,6 +51,15 @@ def ques5(num1,num2):
         print(num2, 'is Maximum')
 
 # Ques 6) Find Min Value between two numbers
+def ques6(num1,num2):
+    num1 = int(num1)
+    num2 = int(num2)
+    if(num1==num2):
+        print(num1,num2,"Both are Equal")
+    elif(num1<num2):
+        print(num1, 'is Minimum')
+    else:
+        print(num2, 'is Minimum')
 
 # Ques 7) Find Average Value of two or more numbers in a list
 
@@ -62,4 +71,4 @@ def ques5(num1,num2):
 ****
 '''
 
-ques5()
+ques6()
