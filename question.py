@@ -37,6 +37,20 @@ def ques4():
         if i%2==0:
             sum+=i
 
-    print(f"Total Odd Sum: {sum}")
+    print(f"Total Even Sum: {sum}")
+
+# Ques 5) Find Max Value between two numbers
+
+# Ques 6) Find Min Value between two numbers
+
+# Ques 7) Find Average Value of two or more numbers in a list
+
+# Ques 8) Print '*' pattern
+'''
+*
+**
+***
+****
+'''
 
 ques4()
