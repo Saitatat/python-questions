@@ -84,6 +84,11 @@ def ques8():
         print('*'*(i+1))
 
 # Ques 9) Add two numbers
+def ques9():
+    a = 10
+    b = 7
+    result = a+b
+    print(f"Addition of {a}+{b} = {result}")
 
 # Ques 10) Subtract two numbers
 
@@ -91,4 +96,4 @@ def ques8():
 
 # Ques 12) Divide two numbers
 
-ques8()
+ques9()
