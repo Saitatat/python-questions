@@ -83,4 +83,12 @@ def ques8():
     for i in range(n):
         print('*'*(i+1))
 
+# Ques 9) Add two numbers
+
+# Ques 10) Subtract two numbers
+
+# Ques 11) Multiply two numbers
+
+# Ques 12) Divide two numbers
+
 ques8()
