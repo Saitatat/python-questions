@@ -62,6 +62,14 @@ def ques6(num1,num2):
         print(num2, 'is Minimum')
 
 # Ques 7) Find Average Value of two or more numbers in a list
+def ques7():
+    numList = [1,2,3,4,5,6,7,8,9,10]
+    n = len(numList)
+    sum = 0
+    for i in numList:
+        sum+=i
+    avg = sum/n
+    print(f"Average is: {avg}")
 
 # Ques 8) Print '*' pattern
 '''
@@ -71,4 +79,4 @@ def ques6(num1,num2):
 ****
 '''
 
-ques6()
+ques7()
