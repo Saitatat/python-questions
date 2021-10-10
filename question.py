@@ -105,5 +105,10 @@ def ques11():
     print(f"Multiplication of {a} x {b} = {result}")
 
 # Ques 12) Divide two numbers
+def ques12():
+    a = 525
+    b = 5
+    result = a / b
+    print(f"Division of {a} / {b} = {result}")
 
-ques11()
+ques12()
