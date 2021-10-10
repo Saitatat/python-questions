@@ -111,4 +111,12 @@ def ques12():
     result = a / b
     print(f"Division of {a} / {b} = {result}")
 
+# Ques 13) Find Square of all nums in List
+
+# Ques 14) Find Cubes of all nums in List
+
+# Ques 15) Print Extension of the any file name ex: "Sample.txt"
+
+# Ques 16) Convert HH:MM:SS to Seconds
+
 ques12()
