@@ -91,9 +91,14 @@ def ques9():
     print(f"Addition of {a}+{b} = {result}")
 
 # Ques 10) Subtract two numbers
+def ques10():
+    a = 15
+    b = 4
+    result = a - b
+    print(f"Subtraction of {a} - {b} = {result}")
 
 # Ques 11) Multiply two numbers
 
 # Ques 12) Divide two numbers
 
-ques9()
+ques10()
