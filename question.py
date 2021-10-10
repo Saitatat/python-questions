@@ -98,7 +98,12 @@ def ques10():
     print(f"Subtraction of {a} - {b} = {result}")
 
 # Ques 11) Multiply two numbers
+def ques11():
+    a = 11
+    b = 42
+    result = a * b
+    print(f"Multiplication of {a} x {b} = {result}")
 
 # Ques 12) Divide two numbers
 
-ques10()
+ques11()
